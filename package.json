@@ -1,0 +1,31 @@
+{
+  "name": "tapdosh",
+  "version": "1.0.0",
+  "description": "TapDosh - Certified Food Concierge Platform",
+  "main": "generator.js",
+  "scripts": {
+    "generate": "node generator.js",
+    "watch": "nodemon generator.js",
+    "serve": "npx serve .",
+    "deploy": "npm run generate && npm run serve",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "food-delivery",
+    "concierge",
+    "nigeria",
+    "restaurant",
+    "certification"
+  ],
+  "author": "TapDosh Team",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.0",
+    "glob": "^10.3.0",
+    "serve": "^14.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "type": "commonjs"
+}

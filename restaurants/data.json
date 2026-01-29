@@ -1,0 +1,303 @@
+[
+  {
+    "restaurant": {
+      "id": "olas-nutrition-01",
+      "name": "Olas Nutrition",
+      "tagline": "Authentic Nigerian Cuisine",
+      "category": "nigerian-cuisine",
+      "subcategory": "rice-dishes",
+      "phone": "+2349137496465",
+      "whatsapp": "+2349031123030",
+      "location": {
+        "address": "Opposite Alhikmah University, Ilorin",
+        "area": "tanke",
+        "coordinates": {
+          "lat": 8.4824,
+          "lng": 4.5522
+        },
+        "landmark": "Beside First Bank"
+      },
+      "delivery_areas": [
+        "Alhikmah University",
+        "Tanke",
+        "Adewole",
+        "Gaa Akanbi",
+        "Sango",
+        "Unity Road"
+      ],
+      "delivery_fee": 500,
+      "delivery_time": "30-45 minutes",
+      "operating_hours": {
+        "monday": "8:00 AM - 11:00 PM",
+        "tuesday": "8:00 AM - 11:00 PM",
+        "wednesday": "8:00 AM - 11:00 PM",
+        "thursday": "8:00 AM - 11:00 PM",
+        "friday": "8:00 AM - 12:00 AM",
+        "saturday": "9:00 AM - 12:00 AM",
+        "sunday": "10:00 AM - 11:00 PM"
+      },
+      "payment_methods": ["bank_transfer", "cash_on_delivery"],
+      "student_discount": 10,
+      "min_order": 1500
+    },
+    "certification": {
+      "isCertified": true,
+      "certificationDate": "2026-01-15",
+      "lastTestDate": "2026-01-28",
+      "overallScore": 92,
+      "badges": [
+        "tapdosh-certified",
+        "speed-kitchen",
+        "chicken-king",
+        "student-favorite",
+        "late-night"
+      ],
+      "testerQuote": "The juiciest chicken in Tanke, consistently well-packaged. Perfect for late-night student cravings!",
+      "scoreBreakdown": {
+        "taste": 95,
+        "portion": 90,
+        "packaging": 85,
+        "accuracy": 98,
+        "speed": 92,
+        "student_rating": 4.7,
+        "affordability": 4.5
+      },
+      "testNotesPrivate": "Slight delay during Friday peak; monitor. Excellent customer service."
+    },
+    "menu_highlights": [
+      {
+        "id": "jollof-chicken",
+        "name": "Jollof Rice with Chicken",
+        "description": "Authentic Nigerian jollof rice with well-seasoned chicken",
+        "price": 2900,
+        "category": "main",
+        "is_popular": true,
+        "tags": ["student-favorite", "best-seller"]
+      },
+      {
+        "id": "shawarma-single",
+        "name": "Shawarma (Single Sausage)",
+        "description": "Delicious shawarma wrap with chicken and sausage",
+        "price": 3300,
+        "category": "shawarma",
+        "is_popular": true,
+        "tags": ["late-night", "quick-bite"]
+      },
+      {
+        "id": "masa-pack",
+        "name": "Masa (Pack of 5)",
+        "description": "Traditional rice cakes, soft and delicious",
+        "price": 500,
+        "category": "snacks",
+        "is_popular": true,
+        "tags": ["breakfast", "snack"]
+      }
+    ],
+    "metadata": {
+      "created": "2026-01-15",
+      "updated": "2026-01-29",
+      "version": "1.0",
+      "nearby_schools": ["Alhikmah University", "Kwara State University", "University of Ilorin"],
+      "target_audience": ["students", "young-professionals", "families"]
+    }
+  },
+  {
+    "restaurant": {
+      "id": "tanke-bites-01",
+      "name": "Tanke Bites",
+      "tagline": "Quick & Delicious Student Meals",
+      "category": "fast-food",
+      "subcategory": "burgers-sandwiches",
+      "phone": "+2349067890123",
+      "whatsapp": "+2349031123030",
+      "location": {
+        "address": "Tanke, Near Alhikmah University Back Gate",
+        "area": "tanke",
+        "coordinates": {
+          "lat": 8.4800,
+          "lng": 4.5500
+        },
+        "landmark": "Opposite Zenith Bank"
+      },
+      "delivery_areas": [
+        "Alhikmah University",
+        "Tanke",
+        "Sango",
+        "Oloje"
+      ],
+      "delivery_fee": 400,
+      "delivery_time": "20-35 minutes",
+      "operating_hours": {
+        "monday": "7:00 AM - 2:00 AM",
+        "tuesday": "7:00 AM - 2:00 AM",
+        "wednesday": "7:00 AM - 2:00 AM",
+        "thursday": "7:00 AM - 2:00 AM",
+        "friday": "7:00 AM - 3:00 AM",
+        "saturday": "8:00 AM - 3:00 AM",
+        "sunday": "9:00 AM - 1:00 AM"
+      },
+      "payment_methods": ["bank_transfer", "cash_on_delivery"],
+      "student_discount": 15,
+      "min_order": 1000
+    },
+    "certification": {
+      "isCertified": true,
+      "certificationDate": "2026-01-20",
+      "lastTestDate": "2026-01-27",
+      "overallScore": 88,
+      "badges": [
+        "tapdosh-certified",
+        "speed-kitchen",
+        "student-favorite",
+        "late-night",
+        "premium-pick"
+      ],
+      "testerQuote": "The go-to spot for late-night study snacks. Burgers are consistently fresh and delivery is lightning fast!",
+      "scoreBreakdown": {
+        "taste": 87,
+        "portion": 92,
+        "packaging": 90,
+        "accuracy": 95,
+        "speed": 96,
+        "student_rating": 4.9,
+        "affordability": 4.8
+      },
+      "testNotesPrivate": "Excellent for student budgets. Packaging maintains heat well."
+    },
+    "menu_highlights": [
+      {
+        "id": "student-burger",
+        "name": "Student Special Burger",
+        "description": "Beef burger with fries and drink",
+        "price": 1800,
+        "category": "burger",
+        "is_popular": true,
+        "tags": ["student-favorite", "best-value"]
+      },
+      {
+        "id": "chicken-shawarma",
+        "name": "Chicken Shawarma",
+        "description": "Loaded shawarma with special sauce",
+        "price": 2500,
+        "category": "shawarma",
+        "is_popular": true,
+        "tags": ["quick-bite", "late-night"]
+      },
+      {
+        "id": "fries-cheese",
+        "name": "Cheese Fries",
+        "description": "Crispy fries with melted cheese",
+        "price": 1200,
+        "category": "snacks",
+        "is_popular": true,
+        "tags": ["shareable", "snack"]
+      }
+    ],
+    "metadata": {
+      "created": "2026-01-20",
+      "updated": "2026-01-28",
+      "version": "1.0",
+      "nearby_schools": ["Alhikmah University"],
+      "target_audience": ["students", "young-adults"]
+    }
+  },
+  {
+    "restaurant": {
+      "id": "jollof-king-01",
+      "name": "Jollof King",
+      "tagline": "The Real Taste of Jollof",
+      "category": "nigerian-cuisine",
+      "subcategory": "rice-dishes",
+      "phone": "+2349076543210",
+      "whatsapp": "+2349031123030",
+      "location": {
+        "address": "Adewole, Ilorin",
+        "area": "adewole",
+        "coordinates": {
+          "lat": 8.4900,
+          "lng": 4.5400
+        },
+        "landmark": "Near Adewole Market"
+      },
+      "delivery_areas": [
+        "Adewole",
+        "Tanke",
+        "Gaa Akanbi",
+        "Sango"
+      ],
+      "delivery_fee": 600,
+      "delivery_time": "35-50 minutes",
+      "operating_hours": {
+        "monday": "10:00 AM - 10:00 PM",
+        "tuesday": "10:00 AM - 10:00 PM",
+        "wednesday": "10:00 AM - 10:00 PM",
+        "thursday": "10:00 AM - 10:00 PM",
+        "friday": "10:00 AM - 11:00 PM",
+        "saturday": "10:00 AM - 11:00 PM",
+        "sunday": "12:00 PM - 9:00 PM"
+      },
+      "payment_methods": ["bank_transfer"],
+      "student_discount": 8,
+      "min_order": 2000
+    },
+    "certification": {
+      "isCertified": true,
+      "certificationDate": "2026-01-18",
+      "lastTestDate": "2026-01-26",
+      "overallScore": 94,
+      "badges": [
+        "tapdosh-certified",
+        "jollof-master",
+        "premium-pick",
+        "chicken-king"
+      ],
+      "testerQuote": "The best Jollof rice in Ilorin - perfectly spiced, never dry, with generous chicken portions. Worth every naira!",
+      "scoreBreakdown": {
+        "taste": 98,
+        "portion": 95,
+        "packaging": 90,
+        "accuracy": 93,
+        "speed": 85,
+        "student_rating": 4.6,
+        "affordability": 4.0
+      },
+      "testNotesPrivate": "Premium quality but slightly pricier. Jollof is exceptional."
+    },
+    "menu_highlights": [
+      {
+        "id": "jollof-king-special",
+        "name": "Jollof King Special",
+        "description": "Signature jollof rice with 4 chicken pieces",
+        "price": 3500,
+        "category": "main",
+        "is_popular": true,
+        "tags": ["premium", "signature-dish"]
+      },
+      {
+        "id": "fried-rice-family",
+        "name": "Fried Rice Family Pack",
+        "description": "Large fried rice with chicken and beef",
+        "price": 5500,
+        "category": "family",
+        "is_popular": true,
+        "tags": ["family-pack", "shareable"]
+      },
+      {
+        "id": "grilled-chicken",
+        "name": "Grilled Chicken (Half)",
+        "description": "Perfectly grilled half chicken",
+        "price": 2800,
+        "category": "protein",
+        "is_popular": true,
+        "tags": ["grilled", "protein"]
+      }
+    ],
+    "metadata": {
+      "created": "2026-01-18",
+      "updated": "2026-01-28",
+      "version": "1.0",
+      "nearby_schools": ["Alhikmah University", "Kwara State Poly"],
+      "target_audience": ["families", "students", "professionals"]
+    }
+  }
+]

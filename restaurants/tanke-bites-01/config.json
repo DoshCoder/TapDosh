@@ -1,0 +1,117 @@
+{
+  "restaurant": {
+    "id": "tanke-bites-01",
+    "name": "Tanke Bites",
+    "tagline": "Quick & Delicious Student Meals",
+    "category": "fast-food",
+    "subcategory": "burgers-sandwiches",
+    "phone": "+2349067890123",
+    "whatsapp": "+2349031123030",
+    "location": {
+      "address": "Tanke, Near Alhikmah University Back Gate",
+      "area": "tanke",
+      "coordinates": {
+        "lat": 8.48,
+        "lng": 4.55
+      },
+      "landmark": "Opposite Zenith Bank"
+    },
+    "delivery_areas": [
+      "Alhikmah University",
+      "Tanke",
+      "Sango",
+      "Oloje"
+    ],
+    "delivery_fee": 400,
+    "delivery_time": "20-35 minutes",
+    "operating_hours": {
+      "monday": "7:00 AM - 2:00 AM",
+      "tuesday": "7:00 AM - 2:00 AM",
+      "wednesday": "7:00 AM - 2:00 AM",
+      "thursday": "7:00 AM - 2:00 AM",
+      "friday": "7:00 AM - 3:00 AM",
+      "saturday": "8:00 AM - 3:00 AM",
+      "sunday": "9:00 AM - 1:00 AM"
+    },
+    "payment_methods": [
+      "bank_transfer",
+      "cash_on_delivery"
+    ],
+    "student_discount": 15,
+    "min_order": 1000
+  },
+  "certification": {
+    "isCertified": true,
+    "certificationDate": "2026-01-20",
+    "lastTestDate": "2026-01-27",
+    "overallScore": 88,
+    "badges": [
+      "tapdosh-certified",
+      "speed-kitchen",
+      "student-favorite",
+      "late-night",
+      "premium-pick"
+    ],
+    "testerQuote": "The go-to spot for late-night study snacks. Burgers are consistently fresh and delivery is lightning fast!",
+    "scoreBreakdown": {
+      "taste": 87,
+      "portion": 92,
+      "packaging": 90,
+      "accuracy": 95,
+      "speed": 96,
+      "student_rating": 4.9,
+      "affordability": 4.8
+    },
+    "testNotesPrivate": "Excellent for student budgets. Packaging maintains heat well."
+  },
+  "menu_highlights": [
+    {
+      "id": "student-burger",
+      "name": "Student Special Burger",
+      "description": "Beef burger with fries and drink",
+      "price": 1800,
+      "category": "burger",
+      "is_popular": true,
+      "tags": [
+        "student-favorite",
+        "best-value"
+      ]
+    },
+    {
+      "id": "chicken-shawarma",
+      "name": "Chicken Shawarma",
+      "description": "Loaded shawarma with special sauce",
+      "price": 2500,
+      "category": "shawarma",
+      "is_popular": true,
+      "tags": [
+        "quick-bite",
+        "late-night"
+      ]
+    },
+    {
+      "id": "fries-cheese",
+      "name": "Cheese Fries",
+      "description": "Crispy fries with melted cheese",
+      "price": 1200,
+      "category": "snacks",
+      "is_popular": true,
+      "tags": [
+        "shareable",
+        "snack"
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-20",
+    "updated": "2026-01-28",
+    "version": "1.0",
+    "nearby_schools": [
+      "Alhikmah University"
+    ],
+    "target_audience": [
+      "students",
+      "young-adults"
+    ]
+  }
+}

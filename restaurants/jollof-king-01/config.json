@@ -1,0 +1,117 @@
+{
+  "restaurant": {
+    "id": "jollof-king-01",
+    "name": "Jollof King",
+    "tagline": "The Real Taste of Jollof",
+    "category": "nigerian-cuisine",
+    "subcategory": "rice-dishes",
+    "phone": "+2349076543210",
+    "whatsapp": "+2349031123030",
+    "location": {
+      "address": "Adewole, Ilorin",
+      "area": "adewole",
+      "coordinates": {
+        "lat": 8.49,
+        "lng": 4.54
+      },
+      "landmark": "Near Adewole Market"
+    },
+    "delivery_areas": [
+      "Adewole",
+      "Tanke",
+      "Gaa Akanbi",
+      "Sango"
+    ],
+    "delivery_fee": 600,
+    "delivery_time": "35-50 minutes",
+    "operating_hours": {
+      "monday": "10:00 AM - 10:00 PM",
+      "tuesday": "10:00 AM - 10:00 PM",
+      "wednesday": "10:00 AM - 10:00 PM",
+      "thursday": "10:00 AM - 10:00 PM",
+      "friday": "10:00 AM - 11:00 PM",
+      "saturday": "10:00 AM - 11:00 PM",
+      "sunday": "12:00 PM - 9:00 PM"
+    },
+    "payment_methods": [
+      "bank_transfer"
+    ],
+    "student_discount": 8,
+    "min_order": 2000
+  },
+  "certification": {
+    "isCertified": true,
+    "certificationDate": "2026-01-18",
+    "lastTestDate": "2026-01-26",
+    "overallScore": 94,
+    "badges": [
+      "tapdosh-certified",
+      "jollof-master",
+      "premium-pick",
+      "chicken-king"
+    ],
+    "testerQuote": "The best Jollof rice in Ilorin - perfectly spiced, never dry, with generous chicken portions. Worth every naira!",
+    "scoreBreakdown": {
+      "taste": 98,
+      "portion": 95,
+      "packaging": 90,
+      "accuracy": 93,
+      "speed": 85,
+      "student_rating": 4.6,
+      "affordability": 4
+    },
+    "testNotesPrivate": "Premium quality but slightly pricier. Jollof is exceptional."
+  },
+  "menu_highlights": [
+    {
+      "id": "jollof-king-special",
+      "name": "Jollof King Special",
+      "description": "Signature jollof rice with 4 chicken pieces",
+      "price": 3500,
+      "category": "main",
+      "is_popular": true,
+      "tags": [
+        "premium",
+        "signature-dish"
+      ]
+    },
+    {
+      "id": "fried-rice-family",
+      "name": "Fried Rice Family Pack",
+      "description": "Large fried rice with chicken and beef",
+      "price": 5500,
+      "category": "family",
+      "is_popular": true,
+      "tags": [
+        "family-pack",
+        "shareable"
+      ]
+    },
+    {
+      "id": "grilled-chicken",
+      "name": "Grilled Chicken (Half)",
+      "description": "Perfectly grilled half chicken",
+      "price": 2800,
+      "category": "protein",
+      "is_popular": true,
+      "tags": [
+        "grilled",
+        "protein"
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-18",
+    "updated": "2026-01-28",
+    "version": "1.0",
+    "nearby_schools": [
+      "Alhikmah University",
+      "Kwara State Poly"
+    ],
+    "target_audience": [
+      "families",
+      "students",
+      "professionals"
+    ]
+  }
+}
